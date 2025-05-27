@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+}
+body{
+    background: rgb(230, 228, 228);
+}
+header{
+    /* background: gray; */
+    color: rgb(235, 183, 183);
+    padding: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav ul li a{
+    color:rgb(128, 126, 126);
+    text-decoration: none;
+}
+button{
+    color:blue;
+    padding: 0.5rem;
+    border-radius:10px;
+    border: 1px solid gray;  
+}
+/* /////////////////////section-hero-form//////////////////////////// */
+#card-hero-form{
+    display: flex;
+    /* width: 100%;; */
+    /* margin:4rem; */
+}
+/* /////////////////////card//////////// */
+.container{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.container h1{
+    color:#0000ff;
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: 35px;
+
+}
+.subtitle {
+    color:#808080;
+    margin:2rem ;
+    font-size: 20px;
+}
+.features{
+    display: flex;
+    margin:3rem 2rem;
+    gap: 4rem;
+
+}
+.features-item{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    font-size: 25px;
+    color:#555526;
+}
+
+
+
+/* ///////////////////////// hero ///////////////////////////// */
+
+.hero{
+    /* background-color:#f0f2f5; */
+    font-family:'Sefoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    /* height:100vh; */
+    /* align-items:baseline; */
+}
+.form-container{
+    background-color: #0d2b63;
+    padding:2rem;
+    border-radius:12px;
+    max-width:500px;
+    width:100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    color:#fff;
+}
+.form-container h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.form-group input{
+    flex: 1 1 48%;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size:1rem;
+}
+.checkbox-container{
+    display: flex;
+    /* gap:0.5rem; */
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size:0.9rem;
+}
+.checkbox-container input{
+    margin-right: 0.5rem;
+}
+.checkbox-container a{
+    color:#ffc107;
+    margin-left:0.2rem;
+}
+.submit-btn{
+    background-color: white;
+    color:#0d2b63;
+    border:none;
+    padding:1rem 2rem;
+    border-radius:40px;
+    font-size:1rem;
+    cursor: pointer;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.submit-btn::after{
+    content:" →";
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+/* ///////////////////data-card//////////////////////////////////////////////// */
+.data-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 4rem 0rem 4rem 2rem;
+    width: 75%;
+}
+.data-card-item{
+    display: inline-block;
+    display: flex;
+    gap: 2rem;
+}
+
+.data-card-item-details{
+    width: 250px;
+    margin: 0.2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.data-card-item-details h2{
+    color: #0000ff;
+}
+.data-card-item-details p{
+    color: #808080;
+}
+
+/* /////////////CHOOSE US///////////////////////////////////// */
+
+.choose{
+    width: 65%;
+    background-color: #f8fafa;
+    margin: 4rem 0rem 4rem 2rem;
+    padding: 2rem;
+    border-radius: 1.0rem;
+    font-family: sans-serif, monospace;
+}
+.choose-card img{
+    border-radius: 20px;
+    width: 25%;
+    max-width: 150px;
+}
+.choose-card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+    /* background-color: #f0ffff; */
+}
+.choose-card h2{
+    color: #0000ff;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.choose-card p{
+    color: #808080;
+    font-size: 20px;
+}
+.title{
+    color: #4f17c8;
+    cursor: pointer;
+
+}
+
+
+/* //////////////////////Benefits-card-details////////////////////////// */
+
+.Benefits{
+    background-color: #fff;
+    font-family: sans-serif, monospace;
+    padding: 2rem;
+    margin: 2rem;
+    width: 65%;
+    /* border: 10px solid green; */
+    border-radius: 10px;
+}
+.Benefits h1{
+    color:#0000ff;
+    /* display: fle; */
+    text-align: center;
+    margin: 0rem 2rem 2rem 2rem;
+    font-size: 35px;
+}
+.Benefits-card{
+    display: flex;
+    gap: 4rem;
+    margin: 2rem;
+
+}
+.Benefits-card-details{
+    /* border:2px solid green; */
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    /* gap: 2rem; */
+}
+.Benefits-card-details img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+/* /////////////////////FAQS//////////////////////////// */
+
+
+/* UPDATE KERNA HOGA FAQs KO  */
+.faqs h1{
+    text-align: center;
+    color: #0000ff;
+}
+.faqs img{
+    border-radius: 10px;
+    width: 800px;
+    margin: 2rem ;
+    /* display: flex; */
+    
+}
+.faqs{
+    
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f9fafb;
+      padding: 2rem;
+      color: #333;
+      width: 65%;
+      border-radius: 10px;
+      margin: 2rem;
+    
+}
+
+  .faq-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      margin-bottom: 1rem;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .faq-question {
+      cursor: pointer;
+      padding: 1rem 1.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #4f46e5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question:hover {
+      background-color: #f1f5ff;
+    }
+
+    .faq-answer {
+      padding: 0 1.5rem 1rem;
+      display: none;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .faq-item.active .arrow {
+      transform: rotate(180deg);
+    }
+
+    .arrow {
+      transition: transform 0.3s ease;
+    }
+
+
+
+
+    /* //////////////       HEALTH MANAGEMENT        ////////////////////////////// */
+
+/* inherit form class */
+.form_body{
+    width: 65%;
+    padding: 2rem;
+    margin: 2rem;
+    /* border: 5px solid green; */
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+/* ///////////////            ART         /////////////////////////////////// */
+    
+.art{
+    /* border:2px solid #0000ff; */
+    border-radius: 10px;
+    margin: 2rem;
+    width: 65%;
+    padding: 2rem;
+    background-color: #fff;
+}
+.art h1{
+    color: #0000ff;
+    text-align: center;
+    font-family: sans-serif, monospace;
+}
+.art-item{
+    display: flex;
+    gap: 2rem;
+    text-align:left;
+    padding: 2rem;
+}
+.art-item img{
+    border-radius: 10px;
+    width: 350px;
+}
+.art-item li{
+    color:#808080;
+    font-size: 20px;
+}
+.data-card-item-details button{
+    background: #0000ff;
+}
+.submit-btn{
+    background-color: #0000ff;
+    color: white;
+}
+
+/* /////////////////        footer  /////////////////////////////////////////// */
+
+.footer{
+    display: flex;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif, monospace;
+    margin: 2rem;
+    /* gap: 2rem; */
+}
+
+.footer-item{
+    text-align: center;
+    width: 70%;
+    padding: 2rem;
+}
+.footer-number h3{
+    color:#808080;
+    font-weight: 100;
+    font-size: 25px;
+    
+}
