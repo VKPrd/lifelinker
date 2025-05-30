@@ -30,7 +30,9 @@ button{
     color:blue;
     padding: 0.5rem;
     border-radius:10px;
-    border: 1px solid gray;  
+    border: 1px solid gray;
+    cursor: pointer;
+
 }
 /* /////////////////////section-hero-form//////////////////////////// */
 #card-hero-form{
@@ -235,6 +237,7 @@ button{
     display: flex;
     gap: 4rem;
     margin: 2rem;
+    /* width: 35%; */
 
 }
 .Benefits-card-details{
@@ -253,8 +256,7 @@ button{
 /* /////////////////////FAQS//////////////////////////// */
 
 
-/* UPDATE KERNA HOGA FAQs KO  */
-.faqs h1{
+faqs h1{
     text-align: center;
     color: #0000ff;
 }
